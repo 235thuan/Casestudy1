@@ -1,0 +1,46 @@
+
+#myCanvas{
+    position: absolute;
+    top: 10px;
+    left: 300px;
+    background-image: url("../images/background6.jpg");
+    background-size: cover;
+}
+#myCanvas2{
+    position: absolute;
+    top: 10px;
+    left: 300px;
+    color: aqua;
+}
+#myCanvas3{
+    position: absolute;
+    top: 10px;
+    left: 300px;
+    /*font-family: .Vn3DH;*/
+    /*font-size: large;*/
+    /*font-family: 'Press Start 2P', cursive;*/
+}
+#myCanvas4{
+    position: absolute;
+    top: 10px;
+    left: 300px;
+}
+#scores{
+    color: red;
+    font-weight: bold;
+    font-family: Arial;
+    font-size: 50px;
+    position: relative;
+    top: -40px;
+    left: 30px;
+}
+#scoresBoard{
+    display: inline-block;
+    position: relative;
+    width: 95px;
+    height: 100px;
+
+}
+#game{
+    display: inline-block;
+}

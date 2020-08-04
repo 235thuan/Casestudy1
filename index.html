@@ -1,25 +1,28 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
-
-    <style>
-        canvas {
-            border:1px solid #d3d3d3;
-            background-color: #f1f1f1;
-            background: url("galaxy.jpg");
-        }
-        img {
-            display:none;
-        }
-    </style>
-
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title></title>
+    <link rel="icon" type="image/gif" href="./images/Dead-Space.ico"/>
+    <link rel="stylesheet" href="./styles/GameBanDan.css">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
 </head>
-
-<body onload="startGame()">
-
-<script src="bai2.js"></script>
-
+<body onkeydown="game.player.changeOrientation(event)">
+<image src="./images/sub-background1.jpg" ;
+       style="position: absolute; top: 10px;left: 1105px; width: 190px ;height: 600px"></image>
+<image src="./images/sub-background2.jpg" ; style="position: absolute; top: 10px ;width: 290px ;height: 600px"></image>
+<canvas id="myCanvas" width='800px' height='600px' style="border: 1px solid #d3d3d3;"></canvas>
+<canvas id="myCanvas2" width='800px' height='600px' style="border: 1px solid #d3d3d3;"></canvas>
+<canvas id="myCanvas3" width='800px' height='600px' style="border: 1px solid #d3d3d3;"></canvas>
+<canvas id="myCanvas4" width='800px' height='600px' style="border: 1px solid #d3d3d3;"></canvas>
+<script src="./src/bullet.js"></script>
+<script src="./src/obstacle.js"></script>
+<script src="./src/explosion.js"></script>
+<script src="./src/player.js"></script>
+<script src="./src/game.js"></script>
+<script src="./src/script.js"></script>
 </body>
 </html>
